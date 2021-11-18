@@ -1,0 +1,455 @@
+.services {
+    margin-bottom: 40px;
+    .tabs-btn {
+        transition: none;
+    }
+    &__tab-all {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        width: 410px;
+    }
+    &__stock {
+        grid-column: 4 span;
+        grid-row: 1 span;
+        margin-top: 7px;
+        padding-top: 20px;
+        padding-right: 130px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        background: url(../img/services_stock.jpg) no-repeat;
+        margin-bottom: 30px;
+    }
+    &__title2 {
+        grid-column: 4 span;
+        padding-top: 20px;
+    }
+    &__title-2 {
+        grid-column: 4 span;
+        margin-top: -45px;
+    }
+    &__rigth-box {
+        grid-column: 4 span;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 30px;
+        row-gap: 20px;
+    }
+    &__rigth-box-2 {
+        margin-top: -40px;
+    }
+    &__small-title {
+        margin-bottom: 6px;
+        font-family: "TT";
+        font-weight: 400;
+    }
+    &__table {
+        opacity: 1;
+        transition: 3s;
+    }
+    &__text {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #999;
+    }
+    &__link {
+        padding-right: 22px;
+        padding-bottom: 2px;
+        align-items: end;
+        width: 19px;
+        height: 13px;
+        background: url(../img/arrow.svg) no-repeat right;
+        transition: 0.3s;
+    }
+    &__discount {
+        margin: 0;
+        font-family: "TT";
+        font-weight: 700;
+        font-size: 36px;
+        color: #fff500;
+    }
+    &__discount__text {
+        margin-bottom: 210px;
+        font-family: "Roboto";
+        font-weight: 700;
+        color: #fff500;
+    }
+    &__duscount-img {
+        margin-bottom: 10px;
+        width: 116px;
+        height: 59px;
+    }
+    &__small-text {
+        margin-bottom: 10px;
+        line-height: 22px;
+        color: #fff;
+        transition: 3s;
+    }
+    &__article:hover &__link {
+        padding-right: 30px;
+        padding-bottom: 2px;
+        width: 19px;
+        height: 13px;
+        background: url(../img/arrow__hover.svg) no-repeat right;
+    }
+    &__article:hover &__small-title {
+        color: var(--color-hover);
+    }
+    &__article-2:hover &__small-title {
+        color: var(--color-hover);
+    }
+    &__article-2:hover &__link {
+        padding-right: 30px;
+        padding-bottom: 2px;
+        width: 19px;
+        height: 13px;
+        background: url(../img/arrow__hover.svg) no-repeat right;
+    }
+    &__link:focus {
+        margin-left: -5px;
+        padding-left: 5px;
+        padding-right: 30px;
+        background-color: #ffd4c1;
+        width: 155px;
+        outline: none;
+        height: 20px;
+        background-image: url(../img/arrow__hover.svg);
+    }
+    &__activ {
+        color: #ff6e30;
+        border-bottom: 4px solid #ff6e30;
+        padding-bottom: 9px;
+    }
+    &__grid-right {
+        margin-top: -50px;
+        display: grid;
+        grid-template-columns: repeat(4, 80px);
+        column-gap: 30px;
+        row-gap: 10px;
+    }
+    &__text-tablet {
+        display: none;
+        width: 350px;
+    }
+    &__text-desk {
+        display: block;
+    }
+    &__article {
+        display: grid;
+        column-gap: 30px;
+        align-items: center;
+        grid-template-columns: repeat(8, 80px);
+        grid-column: 8 span;
+    }
+    &__article-2 {
+        display: grid;
+        column-gap: 30px;
+        align-items: center;
+        grid-template-columns: repeat(8, 80px);
+        grid-column: 4 span;
+    }
+    &__position1 {
+        order: 1;
+    }
+    &__position2 {
+        order: 3;
+    }
+    &__position3 {
+        order: 5;
+    }
+    &__position4 {
+        order: 7;
+    }
+    &__position5 {
+        order: 9;
+    }
+    &__position6 {
+        order: 2;
+    }
+    &__position7 {
+        order: 4;
+    }
+    &__position8 {
+        order: 6;
+    }
+    &__position9 {
+        order: 8;
+    }
+    &__position10 {
+        order: 10;
+    }
+}
+
+.border {
+    position: absolute;
+    width: 410px;
+    height: 4px;
+    top: 71px;
+    background-color: #c4c4c4;
+    z-index: -99999;
+}
+
+.box1 {
+    position: relative;
+}
+
+.box3 {
+    grid-column: 3 span;
+}
+
+.box4 {
+    grid-column: 5 span;
+}
+
+.box2__3 {
+    grid-column: 2 span;
+}
+
+.box2__4 {
+    grid-column: 2 span;
+    padding-top: 17px;
+}
+
+@media (max-width: 1320px) {
+    .services {
+        &__article {
+            grid-column: 5 span;
+            grid-template-columns: repeat(5, 94px);
+        }
+        &__article-2 {
+            display: block;
+            grid-column: 1 span;
+        }
+        &__stock {
+            background: url(../img/services_stock-tablet.jpg) no-repeat;
+            margin-bottom: 40px;
+        }
+        &__text-desk {
+            display: none;
+        }
+        &__text-tablet {
+            display: block;
+            width: 340px;
+        }
+        &__small-title {
+            width: 290px;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        &__title2 {
+            grid-column: 4 span;
+            padding-top: 0;
+            margin-top: -50px;
+        }
+        &__title2-tablet {
+            margin-top: -230px;
+        }
+        &__stock-tablet2 {
+            margin-top: -7px;
+        }
+        &__rigth-box {
+            grid-template-columns: repeat(3, 94px);
+            grid-template-rows: repeat(6, 70px);
+            row-gap: 20px;
+        }
+        &__box-size {
+            margin-top: -55px;
+        }
+        &__box-tablet {
+            margin-top: -410px;
+        }
+        &__2-foto {
+            margin-bottom: 12px;
+        }
+    }
+    .box3 {
+        grid-column: 2 span;
+    }
+    .box4 {
+        grid-column: 3 span;
+    }
+    .box2__3 {
+        grid-column: 1 span;
+    }
+    .box2__4 {
+        display: none;
+    }
+    .box2__4-tablet {
+        display: block;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .services {
+        margin-bottom: 35px;
+        &__tab-all {
+            padding-bottom: 0;
+        }
+        &__article {
+            display: block;
+            grid-column: 3 span;
+        }
+        .border,
+        &__tab-all {
+            width: 342px;
+            margin-bottom: 23px;
+        }
+        &__size {
+            margin-bottom: 28px;
+            width: 350px;
+        }
+        &__small-title {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            line-height: 0.95;
+        }
+        &__text-tablet {
+            letter-spacing: 0.3px;
+            line-height: 1.3;
+            width: 350px;
+            margin-bottom: 10px;
+        }
+        &__stock {
+            grid-column: 6 span;
+            padding-right: 30px;
+            background: url(../img/services_stock-tablet768.jpg) no-repeat;
+        }
+        &__grid-right {
+            grid-column: 6 span;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 30px;
+        }
+        &__rigth-box {
+            grid-column: 6 span;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: auto;
+            column-gap: 30px;
+            row-gap: 27px;
+        }
+        &__box-size {
+            margin-top: -15px;
+        }
+        &__discount__text {
+            margin-bottom: 124px;
+        }
+        &__small-text {
+            width: 213px;
+        }
+        &__title2 {
+            margin-top: 0;
+        }
+        &__stock-tablet768 {
+            display: flex;
+        }
+        &__duscount-img {
+            margin-left: auto;
+        }
+        &__article-2 {
+            grid-column: 3 span;
+        }
+        &__box-tablet {
+            margin-top: -20px;
+        }
+        &__title2-tablet {
+            margin-top: -40px;
+        }
+        .box3 {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .services {
+        margin-bottom: 45px;
+        .grid__left {
+            row-gap: 25px;
+            column-gap: 20px;
+        }
+        .grid__rigth {
+            row-gap: 30px;
+        }
+        .tabs-btn {
+            font-size: 14px;
+        }
+        .border {
+            width: 278px;
+            top: 57px;
+        }
+        &__rigth {
+            margin-bottom: 5px;
+        }
+        &__small-title {
+            font-size: 16px;
+            width: 280px;
+            margin-bottom: 11px;
+            margin-bottom: 10px;
+        }
+        &__tab-all {
+            margin-top: 9px;
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            width: 278px;
+        }
+        &__duscount-img {
+            width: 85px;
+            height: 43px;
+            margin-top: 6px;
+        }
+        &__discount {
+            font-size: 30px;
+        }
+        &__rigth-box-2 {
+            margin-top: -40px;
+        }
+        &__discount__text {
+            font-size: 14px;
+        }
+        &__text {
+            font-size: 13.5px;
+            width: 278px;
+            line-height: 18px;
+            margin-bottom: 11px;
+            letter-spacing: 0.5px;
+        }
+        &__title2-tablet {
+            margin-top: -47px;
+        }
+        &__title-mob {
+            font-size: 18px;
+        }
+        &__link {
+            font-size: 14px;
+            background: url(../img/arrow-mobail.svg) no-repeat right;
+            width: 15px;
+            height: 10px;
+        }
+        &__stock {
+            background: url(../img/services_stock-mobail.jpg) no-repeat;
+            height: 442px;
+            margin-bottom: 27px;
+        }
+        &__discount__text {
+            margin-bottom: 226px;
+        }
+        &__grid-right {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        &__rigth-box {
+            grid-template-columns: repeat(2, 2fr);
+            row-gap: 20px;
+        }
+        &__rigth-box-2 {
+            row-gap: 10px;
+        }
+        &__article-2 {
+            grid-column: 2 span;
+        }
+        &__size {
+            margin-bottom: 7px;
+        }
+    }
+}

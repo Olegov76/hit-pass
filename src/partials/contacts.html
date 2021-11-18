@@ -1,0 +1,61 @@
+<section class="contacts" id="contacts">
+  <div class="container">
+    <h2 class="contacts__title contacts__title-mobail">Контакты</h2>
+  </div>
+  <div id="map-mobail" class="contacts__mymap contacts__map-mobail">
+    <div class="contacts__map-block">
+      <div class="container reletiv">
+        <button class="contacts__close" aria-label="закрыть"></button>
+        <h2 class="contacts__title-small">Студия “High pass”</h2>
+        <p class="contacts__text">107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8, офис № 82
+        </p>
+        <div class="phone contacts__phone">
+          <a class="flex contacts__phone__link contacts__flex" href="tel:+749542423532 ">
+            <svg class="contacts__svg-phone">
+              <use xlink:href="img/sprite.svg#phone_icon"></use>
+            </svg>+7 (495) 42-423-532
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="contacts__title contacts__title-desk">Контакты</h2>
+    <div class="contacts__grid">
+      <div id="map" class="contacts__mymap contacts__map-desk">
+        <div class="contacts__map-block">
+          <button class="contacts__close" aria-label="закрыть"></button>
+          <h2 class="contacts__title-small">Студия “High pass”</h2>
+          <p class="contacts__text">107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8, офис № 82
+          </p>
+          <div class="phone contacts__phone">
+            <a class="flex contacts__phone__link" href="tel:+749542423532 ">
+              <svg class="contacts__svg-phone">
+                <use xlink:href="img/sprite.svg#phone_icon"></use>
+              </svg>+7 (495) 42-423-532
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__form">
+        <h2 class="contacts__title-form">Оставить заявку</h2>
+        <p class="contacts__form-text">Оставьте ваши данные, указав в графе “Комментарий” желаемые время и дату съемки
+          или
+          другого мероприятия</p>
+        <form class="form2" action="https://jsonplaceholder.typicode.com/posts" autocomplete="on" method="POST">
+          <div class="contacts__input-box">
+            <input class="contacts__input" type="text" name="Имя" placeholder="Имя" aria-label="введите имя"
+              oninput="this.value=this.value.replace(/[^A-Za-zА-Яа-яЁё]/g,'');" data-validate-field="name">
+          </div>
+          <div class="contacts__input-box">
+            <input class="contacts__input" style="position: relative;" type="email" name="Email" placeholder="E-mail"
+              aria-label="введите email" data-validate-field="mail">
+          </div>
+          <textarea class="contacts__area" name="Комментарий" cols="30" rows="10" placeholder="Комментарий"
+            aria-label="введите ваш комментарий"></textarea>
+          <button type="submit" class="btn-reset abaut__btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

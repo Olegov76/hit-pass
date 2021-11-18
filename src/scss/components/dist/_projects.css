@@ -1,0 +1,382 @@
+.projects {
+  margin-bottom: 50px;
+}
+.projects .grid-select-mob {
+  display: none;
+}
+.projects__mobail {
+  display: none;
+}
+.projects__card-size {
+  padding-top: 8px;
+}
+.projects__card-text {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.projects__projects {
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+.projects__card1, .projects__card2, .projects__card3 {
+  grid-column: 2 span;
+}
+.projects__content1 {
+  background: url(../img/projects_card-foto1.jpg) no-repeat;
+  padding-right: 0;
+}
+.projects__content2 {
+  background: url(../img/projects_card-foto2.jpg) no-repeat;
+}
+.projects__content3 {
+  background: url(../img/projects_card-foto3.jpg) no-repeat;
+}
+.projects__card4 {
+  position: relative;
+  grid-column: 6 span;
+  padding-left: 30px;
+  color: #fff;
+}
+.projects__content4 {
+  background: url(../img/projects_card-foto4.jpg) no-repeat;
+}
+.projects__card5 {
+  position: relative;
+  grid-column: 6 span;
+  padding-left: 30px;
+  color: #fff;
+}
+.projects__content5 {
+  background: url(../img/projects_card-foto5.jpg) no-repeat;
+}
+.projects__card6 {
+  grid-column: 3 span;
+}
+.projects__content6 {
+  background: url(../img/projects_card-foto6.jpg) no-repeat;
+}
+.projects__card7 {
+  grid-column: 3 span;
+}
+.projects__content7 {
+  background: url(../img/projects_card-foto7.jpg) no-repeat;
+}
+.projects__tablet {
+  display: none;
+}
+.projects .data-opacity {
+  color: #999;
+  background: url(../img/data.svg) no-repeat left;
+}
+.projects .zeroing {
+  margin-bottom: 0;
+}
+.projects .data__white {
+  margin-top: 20px;
+  color: #fff;
+  background: url(../img/data_white.svg) no-repeat left;
+}
+.projects__title {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  font-family: "TT";
+  font-weight: 700;
+  font-size: 24px;
+}
+.projects__text {
+  margin-bottom: 53px;
+  width: 292px;
+  height: 66px;
+  line-height: 22px;
+}
+.projects__btn {
+  position: absolute;
+  display: block;
+  left: 30px;
+  bottom: 30px;
+  border: 3px solid #ff6e30;
+  padding: 13px 20px;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #fff;
+}
+.projects__btn:hover {
+  background-color: #ff6e30;
+}
+.projects__btn:focus {
+  border: 3px solid #ce4307;
+  background-color: #bc572b;
+}
+.projects__btn:active {
+  border: 3px solid #ce4307;
+  background-color: #ce4307;
+}
+.projects__content8 {
+  background: url(../img/projects_card-foto8.jpg) no-repeat;
+}
+.projects__content9 {
+  background: url(../img/projects_card-foto9.jpg) no-repeat;
+}
+.projects__content10 {
+  background: url(../img/projects_card-foto10.jpg) no-repeat;
+}
+.projects__content11 {
+  background: url(../img/projects_card-foto11.jpg) no-repeat;
+  grid-row: 2/3;
+}
+.projects__content12 {
+  background: url(../img/projects_card-foto12.jpg) no-repeat;
+}
+.projects__content13 {
+  background: url(../img/projects_card-foto13.jpg) no-repeat;
+}
+.projects__content14 {
+  background: url(../img/projects_card-foto14.jpg) no-repeat;
+}
+
+@media (max-width: 1320px) {
+  .projects {
+    margin-bottom: 40px;
+  }
+  .projects__content1 {
+    background: url(../img/projects_card-foto1_tablet.jpg) no-repeat;
+    order: 1;
+  }
+  .projects__content2 {
+    background: url(../img/projects_card-foto2_tablet.jpg) no-repeat;
+    order: 2;
+  }
+  .projects__content3 {
+    background: url(../img/projects_card-foto3_tablet.jpg) no-repeat;
+    order: 3;
+  }
+  .projects__tablet-text {
+    margin-bottom: 32px;
+  }
+  .projects__content11 {
+    background: url(../img/projects_card-foto11_tablet.jpg) no-repeat;
+    grid-column: 7/9;
+    grid-row: 1/2;
+  }
+  .projects__content4 {
+    grid-column: 5 span;
+    background: url(../img/projects_card-foto4_tablet.jpg) no-repeat;
+    order: 5;
+  }
+  .projects__content5 {
+    grid-column: 5 span;
+    background: url(../img/projects_card-foto5_tablet.jpg) no-repeat;
+    order: 8;
+  }
+  .projects__content6 {
+    order: 6;
+    background: url(../img/projects_card-foto6_tablet.jpg) no-repeat;
+  }
+  .projects__content7 {
+    background: url(../img/projects_card-foto7_tablet.jpg) no-repeat;
+    order: 7;
+  }
+  .projects__content8 {
+    order: 1;
+    grid-column: 5 span;
+    background: url(../img/projects_card-foto8_tablet.jpg) no-repeat;
+  }
+  .projects__content9 {
+    order: 2;
+    background: url(../img/projects_card-foto9_tablet.jpg) no-repeat;
+  }
+  .projects__content10 {
+    background: url(../img/projects_card-foto10_tablet.jpg) no-repeat;
+    order: 3;
+  }
+  .projects__content12 {
+    background: url(../img/projects_card-foto12_tablet.jpg) no-repeat;
+    order: 5;
+  }
+  .projects__content13 {
+    background: url(../img/projects_card-foto13_tablet.jpg) no-repeat;
+    order: 6;
+  }
+  .projects__content14 {
+    grid-column: 5 span;
+    background: url(../img/projects_card-foto14_tablet.jpg) no-repeat;
+    order: 4;
+  }
+  .projects__tablet {
+    display: block;
+  }
+  .projects__tablet2 {
+    display: none;
+    grid-column: 2 span;
+  }
+}
+@media (max-width: 1000px) {
+  .projects {
+    margin-bottom: 52px;
+  }
+  .projects__content4 {
+    grid-column: 6 span;
+    padding-top: 2px;
+    height: 300px;
+    background: url(../img/projects_card-foto4_tablet2.jpg) no-repeat;
+  }
+  .projects__content5 {
+    height: 300px;
+    background: url(../img/projects_card-foto5_tablet2.jpg) no-repeat;
+    grid-column: 6 span;
+  }
+  .projects__content8 {
+    grid-column: 6 span;
+    background: url(../img/projects_card-foto8_tablet2.jpg) no-repeat;
+    height: 300px;
+  }
+  .projects__content14 {
+    grid-column: 6 span;
+    background: url(../img/projects_card-foto14_tablet2.jpg) no-repeat;
+    height: 300px;
+  }
+  .projects__card-text-2 {
+    width: 330px;
+  }
+  .projects__content11 {
+    order: -3;
+  }
+  .projects__content12 {
+    order: -2;
+  }
+  .projects__content13 {
+    order: -1;
+  }
+  .projects__tablet2 {
+    display: block;
+  }
+  .projects__tablet {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .projects {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .projects .select__btn {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .projects .grid-select-mob {
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 16px;
+    padding: 0;
+  }
+  .projects .data__white {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .projects .select__btn-select1 {
+    margin-right: 10px;
+  }
+  .projects__select-mobail {
+    display: flex;
+    justify-content: space-between;
+  }
+  .projects__card-size {
+    grid-column: 2 span;
+    padding-top: 4px;
+  }
+  .projects__projects {
+    font-size: 18px;
+    padding-top: 2px;
+  }
+  .projects__content1 {
+    background: url(../img/projects_card-foto1-mobail.jpg) no-repeat;
+  }
+  .projects__content2 {
+    background: url(../img/projects_card-foto2-mobail.jpg) no-repeat;
+  }
+  .projects__content3 {
+    background: url(../img/projects_card-foto3-mobail.jpg) no-repeat;
+  }
+  .projects__content4 {
+    background: url(../img/projects_card-foto4-mobail.jpg) no-repeat;
+  }
+  .projects__content5 {
+    background: url(../img/projects_card-foto5-mobail.jpg) no-repeat;
+    height: 422px;
+  }
+  .projects__content6 {
+    background: url(../img/projects_card-foto6-mobail.jpg) no-repeat;
+  }
+  .projects__content7 {
+    background: url(../img/projects_card-foto7-mobail.jpg) no-repeat;
+  }
+  .projects__content11 {
+    background: url(../img/projects_card-foto11-mobail.jpg) no-repeat;
+  }
+  .projects__content12 {
+    background: url(../img/projects_card-foto12-mobail.jpg) no-repeat;
+  }
+  .projects__content13 {
+    background: url(../img/projects_card-foto13-mobail.jpg) no-repeat;
+  }
+  .projects__content9 {
+    background: url(../img/projects_card-foto9-mobail.jpg) no-repeat;
+  }
+  .projects__content8 {
+    background: url(../img/projects_card-foto8-mobail.jpg) no-repeat;
+    height: 422px;
+  }
+  .projects__content14 {
+    background: url(../img/projects_card-foto14-mobail.jpg) no-repeat;
+    height: 422px;
+  }
+  .projects__card2 {
+    grid-row: 2/3;
+  }
+  .projects__card3 {
+    grid-row: 3/4;
+  }
+  .projects__card4 {
+    height: 422px;
+  }
+  .projects__none {
+    display: none;
+  }
+  .projects__mobail {
+    display: block;
+    margin: 0;
+  }
+  .projects__title {
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .projects__text {
+    width: 210px;
+    font-size: 13px;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+  }
+  .projects__tablet-text {
+    margin-bottom: 8px;
+  }
+  .projects__btn {
+    padding: 9px 18px;
+    font-size: 14px;
+  }
+  .projects__card-text-2 {
+    width: 270px;
+  }
+  .projects .zeroing {
+    margin-bottom: 170px;
+  }
+  .projects .zeroing-mob {
+    margin-bottom: 110px;
+  }
+
+  .flex {
+    display: block;
+  }
+}

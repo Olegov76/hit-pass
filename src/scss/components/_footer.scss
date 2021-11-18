@@ -1,0 +1,107 @@
+.footer {
+
+  &__left {
+    grid-column: 3 span;
+  }
+
+  &__left-mobail {
+    display: none;
+  }
+
+  &__left-text {
+    font-family: "TT";
+    font-weight: 400;
+    font-size: 14px;
+    color: #e9e9e9;
+  }
+
+  &__center {
+    justify-self: end;
+    grid-column: 5/9;
+    width: 360px;
+  }
+
+  &__center-text {
+    margin-bottom: 2px;
+    line-height: 22px;
+    color: var(--color-white);
+  }
+
+  &__name {
+    color: #666;
+  }
+
+  &__rigth {
+    justify-self: end;
+    grid-column: 11/13;
+  }
+
+  &__soc {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 7px;
+    margin-right: 13px;
+  }
+
+  @media (max-width: 1320px) {
+    &__left {
+      margin-top: 5px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    &__center {
+      display: none;
+    }
+
+    &__left {
+      grid-column: 4 span;
+    }
+  }
+
+  @media(max-width: 760px) {
+
+    &__left-mobail {
+      display: block;
+    }
+
+    &__left {
+      grid-column: 2 span;
+      margin: 0 auto;
+      text-align: center;
+      padding: 16px 0;
+      background: #4a4a4a;
+    }
+
+    &__left-text {
+      margin-top: 7px;
+    }
+
+    &__center {
+      display: none;
+    }
+
+    &__left-text {
+      font-size: 10px;
+    }
+
+    &__rigth {
+      grid-column: 2 span;
+      padding-bottom: 30px;
+      padding-top: 8px;
+      margin: 0 auto;
+    }
+
+    &__left-desk {
+      display: none;
+    }
+
+    &__logo-mobail {
+      margin: 0 auto;
+    }
+
+    .reset {
+      margin: 0 auto;
+    }
+  }
+}

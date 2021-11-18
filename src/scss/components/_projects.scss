@@ -1,0 +1,385 @@
+.projects {
+    margin-bottom: 50px;
+    .grid-select-mob {
+        display: none;
+    }
+    &__mobail {
+        display: none;
+    }
+    &__card-size {
+        padding-top: 8px;
+    }
+    &__card-text {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    &__projects {
+        margin-top: 0;
+        margin-bottom: 13px;
+    }
+    &__card1,
+    &__card2,
+    &__card3 {
+        grid-column: 2 span;
+    }
+    &__content1 {
+        background: url(../img/projects_card-foto1.jpg) no-repeat;
+        padding-right: 0;
+    }
+    &__content2 {
+        background: url(../img/projects_card-foto2.jpg) no-repeat;
+    }
+    &__content3 {
+        background: url(../img/projects_card-foto3.jpg) no-repeat;
+    }
+    &__card4 {
+        position: relative;
+        grid-column: 6 span;
+        padding-left: 30px;
+        color: #fff;
+    }
+    &__content4 {
+        background: url(../img/projects_card-foto4.jpg) no-repeat;
+    }
+    &__card5 {
+        position: relative;
+        grid-column: 6 span;
+        padding-left: 30px;
+        color: #fff;
+    }
+    &__content5 {
+        background: url(../img/projects_card-foto5.jpg) no-repeat;
+    }
+    &__card6 {
+        grid-column: 3 span;
+    }
+    &__content6 {
+        background: url(../img/projects_card-foto6.jpg) no-repeat;
+    }
+    &__card7 {
+        grid-column: 3 span;
+    }
+    &__content7 {
+        background: url(../img/projects_card-foto7.jpg) no-repeat;
+    }
+    &__tablet {
+        display: none;
+    }
+    .data-opacity {
+        color: #999;
+        background: url(../img/data.svg) no-repeat left;
+    }
+    .zeroing {
+        margin-bottom: 0;
+    }
+    .data__white {
+        margin-top: 20px;
+        color: #fff;
+        background: url(../img/data_white.svg) no-repeat left;
+    }
+    &__title {
+        margin-top: 6px;
+        margin-bottom: 5px;
+        font-family: "TT";
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &__text {
+        margin-bottom: 53px;
+        width: 292px;
+        height: 66px;
+        line-height: 22px;
+    }
+    &__btn {
+        position: absolute;
+        display: block;
+        left: 30px;
+        bottom: 30px;
+        border: 3px solid #ff6e30;
+        padding: 13px 20px;
+        font-family: "Roboto";
+        font-weight: 700;
+        color: #fff;
+    }
+    &__btn:hover {
+        background-color: #ff6e30;
+    }
+    &__btn:focus {
+        border: 3px solid #ce4307;
+        background-color: #bc572b;
+    }
+    &__btn:active {
+        border: 3px solid #ce4307;
+        background-color: #ce4307;
+    }
+    &__content8 {
+        background: url(../img/projects_card-foto8.jpg) no-repeat;
+    }
+    &__content9 {
+        background: url(../img/projects_card-foto9.jpg) no-repeat;
+    }
+    &__content10 {
+        background: url(../img/projects_card-foto10.jpg) no-repeat;
+    }
+    &__content11 {
+        background: url(../img/projects_card-foto11.jpg) no-repeat;
+        grid-row: 2/3;
+    }
+    &__content12 {
+        background: url(../img/projects_card-foto12.jpg) no-repeat;
+    }
+    &__content13 {
+        background: url(../img/projects_card-foto13.jpg) no-repeat;
+    }
+    &__content14 {
+        background: url(../img/projects_card-foto14.jpg) no-repeat;
+    }
+}
+
+@media (max-width: 1320px) {
+    .projects {
+        margin-bottom: 40px;
+        &__content1 {
+            background: url(../img/projects_card-foto1_tablet.jpg) no-repeat;
+            order: 1;
+        }
+        &__content2 {
+            background: url(../img/projects_card-foto2_tablet.jpg) no-repeat;
+            order: 2;
+        }
+        &__content3 {
+            background: url(../img/projects_card-foto3_tablet.jpg) no-repeat;
+            order: 3;
+        }
+        &__tablet-text {
+            margin-bottom: 32px;
+        }
+        &__content11 {
+            background: url(../img/projects_card-foto11_tablet.jpg) no-repeat;
+            grid-column: 7/9;
+            grid-row: 1/2;
+        }
+        &__content4 {
+            grid-column: 5 span;
+            background: url(../img/projects_card-foto4_tablet.jpg) no-repeat;
+            order: 5;
+        }
+        &__content5 {
+            grid-column: 5 span;
+            background: url(../img/projects_card-foto5_tablet.jpg) no-repeat;
+            order: 8;
+        }
+        &__content6 {
+            order: 6;
+            background: url(../img/projects_card-foto6_tablet.jpg) no-repeat;
+        }
+        &__content7 {
+            background: url(../img/projects_card-foto7_tablet.jpg) no-repeat;
+            order: 7;
+        }
+        &__content8 {
+            order: 1;
+            grid-column: 5 span;
+            background: url(../img/projects_card-foto8_tablet.jpg) no-repeat;
+        }
+        &__content9 {
+            order: 2;
+            background: url(../img/projects_card-foto9_tablet.jpg) no-repeat;
+        }
+        &__content10 {
+            background: url(../img/projects_card-foto10_tablet.jpg) no-repeat;
+            order: 3;
+        }
+        &__content12 {
+            background: url(../img/projects_card-foto12_tablet.jpg) no-repeat;
+            order: 5;
+        }
+        &__content13 {
+            background: url(../img/projects_card-foto13_tablet.jpg) no-repeat;
+            order: 6;
+        }
+        &__content14 {
+            grid-column: 5 span;
+            background: url(../img/projects_card-foto14_tablet.jpg) no-repeat;
+            order: 4;
+        }
+        &__tablet {
+            display: block;
+        }
+        &__tablet2 {
+            display: none;
+            grid-column: 2 span;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects {
+        margin-bottom: 52px;
+        &__content4 {
+            grid-column: 6 span;
+            padding-top: 2px;
+            height: 300px;
+            background: url(../img/projects_card-foto4_tablet2.jpg) no-repeat;
+        }
+        &__content5 {
+            height: 300px;
+            background: url(../img/projects_card-foto5_tablet2.jpg) no-repeat;
+            grid-column: 6 span;
+        }
+        &__content8 {
+            grid-column: 6 span;
+            background: url(../img/projects_card-foto8_tablet2.jpg) no-repeat;
+            height: 300px;
+        }
+        &__content14 {
+            grid-column: 6 span;
+            background: url(../img/projects_card-foto14_tablet2.jpg) no-repeat;
+            height: 300px;
+        }
+        &__card-text-2 {
+            width: 330px;
+        }
+        &__content11 {
+            order: -3;
+        }
+        &__content12 {
+            order: -2;
+        }
+        &__content13 {
+            order: -1;
+        }
+        &__tablet2 {
+            display: block;
+        }
+        &__tablet {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .projects {
+        position: relative;
+        margin-bottom: 30px;
+        .select__btn {
+            width: 24px;
+            height: 24px;
+            font-size: 12px;
+        }
+        .grid-select-mob {
+            display: flex;
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 16px;
+            padding: 0;
+        }
+        .data__white {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .select__btn-select1 {
+            margin-right: 10px;
+        }
+        &__select-mobail {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__card-size {
+            grid-column: 2 span;
+            padding-top: 4px;
+        }
+        &__projects {
+            font-size: 18px;
+            padding-top: 2px;
+        }
+        &__content1 {
+            background: url(../img/projects_card-foto1-mobail.jpg) no-repeat;
+        }
+        &__content2 {
+            background: url(../img/projects_card-foto2-mobail.jpg) no-repeat;
+        }
+        &__content3 {
+            background: url(../img/projects_card-foto3-mobail.jpg) no-repeat;
+        }
+        &__content4 {
+            background: url(../img/projects_card-foto4-mobail.jpg) no-repeat;
+        }
+        &__content5 {
+            background: url(../img/projects_card-foto5-mobail.jpg) no-repeat;
+            height: 422px;
+        }
+        &__content6 {
+            background: url(../img/projects_card-foto6-mobail.jpg) no-repeat;
+        }
+        &__content7 {
+            background: url(../img/projects_card-foto7-mobail.jpg) no-repeat;
+        }
+        &__content11 {
+            background: url(../img/projects_card-foto11-mobail.jpg) no-repeat;
+        }
+        &__content12 {
+            background: url(../img/projects_card-foto12-mobail.jpg) no-repeat;
+        }
+        &__content13 {
+            background: url(../img/projects_card-foto13-mobail.jpg) no-repeat;
+        }
+        &__content9 {
+            background: url(../img/projects_card-foto9-mobail.jpg) no-repeat;
+        }
+        &__content8 {
+            background: url(../img/projects_card-foto8-mobail.jpg) no-repeat;
+            height: 422px;
+        }
+        &__content14 {
+            background: url(../img/projects_card-foto14-mobail.jpg) no-repeat;
+            height: 422px;
+        }
+        &__card2 {
+            grid-row: 2/3;
+        }
+        &__card3 {
+            grid-row: 3/4;
+        }
+        &__card4 {
+            height: 422px;
+        }
+        &__none {
+            display: none;
+        }
+        &__mobail {
+            display: block;
+            margin: 0;
+        }
+        &__title {
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+        &__text {
+            width: 210px;
+            font-size: 13px;
+            line-height: 1.4;
+            letter-spacing: 0.5px;
+        }
+        &__tablet-text {
+            margin-bottom: 8px;
+        }
+        &__btn {
+            padding: 9px 18px;
+            font-size: 14px;
+        }
+        &__card-text-2 {
+            width: 270px;
+        }
+        .zeroing {
+            margin-bottom: 170px;
+        }
+        .zeroing-mob {
+            margin-bottom: 110px;
+        }
+    }
+    .flex {
+        display: block;
+    }
+}

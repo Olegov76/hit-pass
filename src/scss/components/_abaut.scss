@@ -1,0 +1,191 @@
+.abaut {
+  margin-bottom: 39px;
+  padding-top: 32px;
+  padding-bottom: 30px;
+  background-color: var(--color-black);
+
+  &__left,
+  &__right {
+    grid-column: 6 span;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  &__text {
+    grid-column: 4 span;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-white);
+  }
+
+  &__form-text {
+    margin-bottom: 14px;
+    font-family: "TT";
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  &__foto-indent {
+    margin-bottom: 21px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__input-box {
+    position: relative;
+  }
+
+  &__input {
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    width: 474px;
+    height: 50px;
+    background-color: #4a4a4a;
+    color: var(--color-white);
+  }
+
+  &__input::placeholder {
+    font-size: 14px;
+    color: var(--color-white);
+    transition: 1s;
+  }
+
+  &__input:hover::placeholder {
+    color: #ff6e30;
+  }
+
+  &__input:focus {
+    border: 1px solid #ff6e30;
+    background-color: #4a4a4a;
+  }
+
+  &__input:active {
+    background-color: #4a4a4a;
+  }
+
+  &__btn {
+    border: 3px solid #ff6e30;
+    padding: 12px 19px;
+    color: #fff;
+    background-color: #ff6e30;
+  }
+
+  &__btn:hover {
+    border: 3px solid #bc572b;
+    background-color: #bc572b;
+  }
+
+  &__btn:focus {
+    border: 3px solid #ce4307;
+    background-color: #ff6e30;
+  }
+
+  &__btn:active {
+    border: 3px solid #ce4307;
+    background-color: #ce4307;
+  }
+}
+
+@media (max-width: 1320px) {
+  .abaut {
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+
+    &__left,
+    &__right {
+      grid-column: 4 span;
+    }
+
+    &__left {
+      padding-right: 0;
+    }
+
+    &__foto-indent {
+      margin-bottom: 15px;
+    }
+
+    &__text {
+      letter-spacing: 0.2px;
+    }
+
+    &__form {
+      display: block;
+    }
+
+    &__input {
+      margin-bottom: 20px;
+      width: 342px;
+    }
+
+    @media (max-width: 1000px) {
+      padding-bottom: 35px;
+
+      &__left,
+      &__right {
+        grid-column: 3 span;
+        padding: 0;
+      }
+
+      &__text {
+        line-height: 28px;
+      }
+
+      &__input {
+        grid-column: 3 span;
+      }
+    }
+
+    @media (max-width: 760px) {
+      margin-bottom: 31px;
+      padding-bottom: 58px;
+
+      &__title,
+      &__form-text {
+        font-size: 18px;
+        margin-bottom: 6px;
+      }
+
+      .grid {
+        row-gap: 25px;
+      }
+
+      &__form-text {
+        margin-bottom: 15px;
+      }
+
+      &__foto-indent {
+        margin-bottom: 22px;
+      }
+
+      &__left,
+      &__right {
+        grid-column: 2 span;
+      }
+
+      &__text {
+        font-size: 14px;
+        line-height: 1.82;
+        width: 285px;
+      }
+
+      &__input {
+        width: 278px;
+        height: 40px;
+      }
+
+      &__btn {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+    }
+  }
+}
